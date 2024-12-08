@@ -1,0 +1,18 @@
+# Ignorar pastas de build
+bin/
+obj/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos temporários do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+
+# Ignorar a pasta node_modules (caso esteja usando Node.js)
+node_modules/
+
+# Ignorar arquivos gerados por IDEs e editores
+.vscode/
