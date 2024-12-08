@@ -1,38 +1,22 @@
 # Gerenciador de Produtos
 
-Projeto desenvolvido como parte do desafio final do **Bootcamp Squadra Digital**, com foco em **C# e .NET 8**. Este sistema é capaz de gerenciar produtos, oferecendo funcionalidades como cadastro, edição, exclusão, autenticação de usuários e integração com um banco de dados SQL Server.
-
-## Funcionalidades
-
-- **Cadastro de Produtos**: Adicionar, editar e remover produtos do sistema.
-- **Listagem de Produtos**: Consultar produtos cadastrados no banco de dados.
-- **Autenticação**: Sistema de login utilizando JWT (JSON Web Tokens) para segurança.
-- **Banco de Dados**: Persistência de dados utilizando SQL Server.
+Este repositório contém o código para o desafio de gerenciamento de produtos desenvolvido durante o bootcamp da empresa Squadra Digital. O objetivo deste projeto é demonstrar o uso de C# e .NET 8 para criar uma aplicação de gerenciamento de produtos, incluindo funcionalidades de cadastro, edição e remoção de itens.
 
 ## Tecnologias Utilizadas
+- **C#**: Linguagem de programação principal.
+- **.NET 8**: Framework utilizado para desenvolvimento da aplicação.
+- **SQL Server**: Banco de dados utilizado para armazenamento das informações dos produtos.
 
-- **Linguagem**: C#
-- **Framework**: .NET 8
-- **Banco de Dados**: SQL Server (via SQL Server Management Studio - SSMS)
-- **Autenticação**: JWT (JSON Web Tokens)
-- **IDE**: Visual Studio
-- **Controle de Versão**: Git e GitHub
+## Funcionalidades
+- Cadastro de novos produtos.
+- Edição e remoção de produtos existentes.
+- Conexão com banco de dados SQL Server.
 
-## Requisitos para Execução
+## Documentação
+A documentação completa do projeto foi criada em um arquivo **Word**. Você pode encontrá-la no repositório como **Documentação Gerenciador de Produtos - Marcos Moura.docx**. Ela contém detalhes sobre o desenvolvimento do projeto, explicações sobre as funcionalidades e as decisões técnicas tomadas durante o desenvolvimento.
 
-1. **Ambiente de Desenvolvimento**:
-   - Visual Studio (2022 ou superior)
-   - .NET SDK 8 instalado
-   - SQL Server Management Studio (SSMS)
+## Como Rodar o Projeto
 
-2. **Banco de Dados**:
-   - Configure o banco de dados utilizando o **SQL Server Management Studio**.
-   - Importe ou crie as tabelas necessárias para o projeto (consulte a documentação para mais detalhes).
-
-3. **Configuração da String de Conexão**:
-   Atualize a string de conexão no arquivo `appsettings.json` com as credenciais corretas para o servidor SQL Server. Exemplo:
-
-   ```json
-   "ConnectionStrings": {
-     "GerenciadorConnection": "Server=SEU_SERVIDOR;Database=GerenciadorProdutos;Trusted_Connection=True;"
-   }
+1. Clone este repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/marcosmouraz/GerenciadorProdutos.git
