@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GerenciadorProdutos</name>
+    </assembly>
+    <members>
+        <member name="T:GerenciadorProdutos.Migrations.adicionartabelas">
+            <inheritdoc />
+        </member>
+        <member name="M:GerenciadorProdutos.Migrations.adicionartabelas.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GerenciadorProdutos.Migrations.adicionartabelas.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:GerenciadorProdutos.Migrations.adicionartabelas.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
